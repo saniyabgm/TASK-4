@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>JavaScript - Redirect to another URL on Button Click.</title>
+       <script type="text/javascript">
+          function redirectToURL(btnId){
+              if(btnId=="button1")
+                  window.location.replace("https://saniyabgm.github.io/slider/");
+              else if(btnId=="button2")
+              window.location.replace("https://saniyabgm.github.io/game/");
+               }
+       </script>
+    </head>
+    <body style="text-align: center">
+       <h1>
+       MY HOME PAGE
+       <h1>
+       <input type="button" id="button1" value="IMAGE SLIDER" onClick='redirectToURL(this.id)'/>
+       <input type="button" id="button2" value="HUNGAMA GAME" onClick='redirectToURL(this.id)'/>
+       <script src = "index.js"></script>
+    </body>
+ </html>
